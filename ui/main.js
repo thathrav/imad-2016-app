@@ -13,5 +13,6 @@ button.onclick=function()
                } 
         }
     };
-    request.open('GET',)
+    request.open('GET','http://thathrav.imad.hasura-app.io/counter',true);
+    request.send(null);
     };
